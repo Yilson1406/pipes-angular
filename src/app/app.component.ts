@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes-app';
+  display:boolean=false
+  check:boolean=true;
+  mayusculas(){
+    this.check = !this.check ;
+  }
+
 }

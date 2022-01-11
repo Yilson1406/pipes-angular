@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
+import {SidebarModule} from 'primeng/sidebar';
+import {ToggleButtonModule} from 'primeng/togglebutton';
+
 
 
 
@@ -9,7 +12,9 @@ import {CardModule} from 'primeng/card';
   declarations: [],
 exports:[
   ButtonModule,
-  CardModule
+  CardModule,
+  SidebarModule,
+  ToggleButtonModule
 ]
 })
 export class PrimengModule { }
